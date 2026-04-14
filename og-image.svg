@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="DM Sans, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B14"/>
+      <stop offset="1" stop-color="#0D1625"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5B5FEF"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0.3" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#5B5FEF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#5B5FEF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <ellipse cx="340" cy="280" rx="520" ry="340" fill="url(#orb)"/>
+
+  <!-- Logo mark -->
+  <g transform="translate(80,72)">
+    <rect width="64" height="64" rx="14" fill="#0F1929" stroke="#5B5FEF" stroke-opacity="0.35"/>
+    <path d="M16 18 L32 46 L48 18" fill="none" stroke="url(#brand)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="160" y="115" font-size="28" font-weight="700" fill="#EEF2FF" letter-spacing="2">VISIO</text>
+
+  <!-- Badge -->
+  <g transform="translate(80,210)">
+    <rect width="360" height="38" rx="19" fill="#5B5FEF" fill-opacity="0.08" stroke="#5B5FEF" stroke-opacity="0.35"/>
+    <text x="22" y="25" font-size="13" font-weight="600" fill="#A5B4FC" letter-spacing="1.5">MARKAZIY OSIYODAGI BIRINCHI · AI PROPTECH</text>
+  </g>
+
+  <!-- Headline -->
+  <text x="80" y="330" font-family="Playfair Display, Georgia, serif" font-size="72" font-weight="700" fill="#EEF2FF">Qurilishni ko'rsating,</text>
+  <text x="80" y="410" font-family="Playfair Display, Georgia, serif" font-size="72" font-weight="700" fill="url(#brand)">sotilishidan oldin</text>
+
+  <!-- Subhead -->
+  <text x="80" y="475" font-size="24" fill="#94A3C4" font-weight="300">2D rejadan 24 soatda fotorealistik 3D render</text>
+
+  <!-- Stats row -->
+  <g transform="translate(80,535)" font-weight="700">
+    <g>
+      <text font-family="Playfair Display, serif" font-size="38" fill="#EEF2FF">24h</text>
+      <text y="24" font-size="13" fill="#4A5A7A" font-weight="400">YETKAZIB BERISH</text>
+    </g>
+    <g transform="translate(220,0)">
+      <text font-family="Playfair Display, serif" font-size="38" fill="#00D68F">$6.96B</text>
+      <text y="24" font-size="13" fill="#4A5A7A" font-weight="400">GLOBAL BOZOR 2032</text>
+    </g>
+    <g transform="translate(500,0)">
+      <text font-family="Playfair Display, serif" font-size="38" fill="#F0A500">21.5%</text>
+      <text y="24" font-size="13" fill="#4A5A7A" font-weight="400">YILLIK O'SISH</text>
+    </g>
+  </g>
+
+  <!-- Right side decorative 3D cube outline -->
+  <g transform="translate(900,230)" stroke="#5B5FEF" stroke-opacity="0.55" stroke-width="2.5" fill="none" stroke-linejoin="round">
+    <polygon points="100,0 200,50 200,160 100,210 0,160 0,50"/>
+    <line x1="100" y1="0" x2="100" y2="210"/>
+    <line x1="0" y1="50" x2="200" y2="50"/>
+    <line x1="0" y1="160" x2="200" y2="160"/>
+  </g>
+</svg>
